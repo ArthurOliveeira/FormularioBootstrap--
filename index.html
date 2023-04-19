@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <form>
+            <h1>Formulário</h1>
+            <div class="form-row">
+                <div class="form-group col-md-8">
+                    <label for="">Nome:</label>
+                    <input type="name" class="form-control" id="Nome">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="">Data de nascimento:</label>
+                    <input type="date" class="form-control" id="Data">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="">Nome Mãe:</label>
+                    <input type="name" class="form-control" id="Mãe">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="">Nome Pai:</label>
+                    <input type="name" class="form-control" id="Pai">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="">Cidade:</label>
+                    <input type="text" class="form-control" id="Cidade">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="">Curso:</label>
+                    <input type="text" class="form-control" id="Curso">
+                        <select class="form-control" id="curso">
+                            <option value="">Selecione o Curso</option>
+                            <option value="">Enfermagem</option>
+                            <option value="">Informática</option>
+                            <option value="">Comércio</option>
+                            <option value="">Administração</option>
+                        </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="">Turma:</label>
+                    <input type="text" class="form-control" id="Turma">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="">Endereço:</label>
+                    <input type="text" class="form-control" id="Endereço">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="">Complemento:</label>
+                    <input type="text" class="form-control" id="Complemento">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="">Bairro:</label>
+                    <input type="text" class="form-control" id="Bairro">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="">CEP:</label>
+                    <input type="text" class="form-control" id="cep" maxlenght="8">
+                </div>
+                    <button class="butao"><center>Enviar Dados</center></button>
+            </div>
+        </div>
+        </form>
+        <script src="script.js"></script>
+</body>
+</html>
